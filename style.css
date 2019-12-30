@@ -1,0 +1,184 @@
+body {
+    background-color: lightseagreen;
+    color: #fff;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+#tophead {
+    padding: 0px 15%;
+}
+
+header {
+    background-color: #fff;
+    border-radius: 32px;
+}
+
+h1 {
+    font-family: sans-serif;
+    font-weight: bold;
+    border: 9px solid lightseagreen;
+    border-radius: 30px;
+    padding: 15px 5px;
+    color: lightseagreen;
+    text-align: center;
+}
+
+nav {
+    color: lightseagreen;
+    padding-bottom: 5px;
+}
+
+nav ul {
+    padding: 0px 5px;
+    list-style: none;
+    margin: none;
+    text-align: center;
+}
+
+nav li, nav a {
+    display: inline;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightseagreen;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+a {
+    color: dimgray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+a:hover {
+    color: rgba(255, 0, 0, 0.774);
+
+}
+
+.in, nav a:hover {
+    background-color: lightseagreen;
+    border-radius: 3px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.heading{
+    color: lightseagreen;
+    padding: 2px 30%;
+
+}
+h3 {
+    background-color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 1.7em;
+    letter-spacing: .025em;
+}
+
+p {
+    border: medium none;
+    line-height: 1.5;
+    color: #fff;
+    font-weight: bold;
+    padding: 2px 30px;
+    text-align: center;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+footer {
+    background-color: lightseagreen;
+    color: #fff;
+    position: static;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+/* Contact style sheet. (Contact-form) */
+
+.contact-form {
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 15%;
+}
+
+.contact-form .form-group {
+    padding-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+
+}
+
+.contact-form input[type="text"], .contact-form input[type="email"] {
+    padding: 10px;
+    width: 30%;
+    min-width: 220px;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+}
+
+.contact-form textarea {
+    padding: 10px;
+    padding-bottom: 30px;
+    text-decoration: none;
+    border: none;
+    border-radius: 30px;
+    margin: 0px 10px 0px 0px;
+    width: 30%;
+    min-width: 220px;
+    height: 144px;
+}
+
+.button, .button input[type="submit"], .button input[type="reset"] {
+    background-color: #fff;
+    color: lightseagreen;
+    border: none;
+    border-radius: 30px;
+    padding: 3px;
+    margin: 3px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.button:hover, .button input[type="submit"]:hover, .button input[type="reset"]:hover {
+    background-color: lightseagreen;
+    color: #fff;
+    border: #fff;
+}
+
+/* Project style sheet. (imgs flex response) */
+
+.project-gallery {
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img {
+    min-width: 150px;
+    min-height: 100px;
+    margin: 15px;
+    cursor: pointer;
+    transition: all 1s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
