@@ -52,6 +52,10 @@ nav ul{
         display: grid;
         grid-template-columns: 1fr;
     }
+    h3 {
+        font-size: 0.8em;
+        font-weight: normal;
+    }
 }
 
 a {
@@ -178,6 +182,20 @@ footer {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.profile-pic {
+    display: inline-block;
+    text-align: center;
+}
+
+.mainholder {
+    justify-content: center;
+    text-align: center;
+}
+
+.pic {
+    width: 80%
 }
 
 img {
