@@ -190,6 +190,8 @@ footer {
 }
 
 .mainholder {
+    background: auto;
+    background-color: lightseagreen;
     justify-content: center;
     text-align: center;
 }
